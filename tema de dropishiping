@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu site de dropshipping</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio">
+        <h1>Bem-vindo ao meu site de dropshipping</h1>
+        <p>Conheça nossos produtos de alta qualidade e comece a ganhar dinheiro agora mesmo!</p>
+      </section>
+      <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <ul>
+          <li>Produto 1</li>
+          <li>Produto 2</li>
+          <li>Produto 3</li>
+        </ul>
+      </section>
+      <section id="contato">
+        <h2>Entre em contato conosco</h2>
+        <form action="submit-form.php" method="post">
+          <input type="text" name="nome" placeholder="Seu nome">
+          <input type="email" name="email" placeholder="Seu e-mail">
+          <textarea name="mensagem" placeholder="Sua mensagem"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 Meu site de dropshipping</p>
+    </footer>
+  </body>
+</html>
